@@ -41,8 +41,8 @@ RUN set -eux; \
          BINARY_URL='https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u-2019-07-16-20-20/OpenJDK8U-jdk_s390x_linux_openj9_2019-07-16-20-20.tar.gz'; \
          ;; \
        amd64|x86_64) \
-         ESUM='f692d4cb9535d53c39d7db930f9ba383e5a97ab6e0525179dad365132f40d992'; \
-         BINARY_URL='https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u-2019-07-16-20-20/OpenJDK8U-jdk_x64_linux_openj9_2019-07-16-20-20.tar.gz'; \
+         ESUM='1d329ae0c8ce64c799a482cd058e9d6eb1a714ce072d3f02b8ae602ef89ddb69'; \
+         BINARY_URL='https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u-2019-09-13-14-15/OpenJDK8U-jdk_x64_linux_openj9_2019-09-13-14-15.tar.gz'; \
          ;; \
        *) \
          echo "Unsupported arch: ${ARCH}"; \
